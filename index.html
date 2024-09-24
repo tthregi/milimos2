@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>kiegeszites</title>
+    <style>
+        body{
+            background-color: rgb(255, 191, 0);
+            padding:30px
+        }
+    </style>
+    <script>
+        function jelszoEllenorzes(){
+            var jelszo = document.getElementById("jelszoDoboz")
+            var beirtjelszo = jelszo.value;
+            if(beirtjelszo == "zombi"){
+                return true;
+            }
+            alert("Hozzáférés megtagadva! Helytelen jelszó'");
+            return false;
+        }
+    </script>
+</head>
+<body>
+
+    <p id="cim" style="font-size: 30pt;">Kivéve ha egy _________ vagy</p>
+    <p id="ii">A jelszó elég egyszerű, ha megtalálja azt a szót mellyel ez a mondat kiegészül eléri a weblapot!</p>
+    <p id="pipi">jelszó:<input id="jelszoDoboz" type="password"/></p>
+    <a href="Legyenonismillimos.html" onclick="return jelszoEllenorzes();">
+    A jelszó elküldéséhez és a weblap felkereséséhez kattits ide</a>
+</body>
+</html>

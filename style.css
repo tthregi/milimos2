@@ -1,0 +1,32 @@
+a{
+    border: 2px solid black;
+    background-color: rgb(235, 96, 96);
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    border-radius: 10%;
+}
+#ii{
+   color: rgb(0, 0, 0);
+   width:300px;
+   border: 2px solid rgb(0, 0, 0);
+   text-align: center;
+   font-family: cursive;
+   background-color: rgb(226, 126, 98);
+   border-radius: 30%;
+}
+body{
+    background-image:url(kepek/gombik.jpg) ;
+    margin: auto;
+    text-align: center;
+}
+#pipi{
+    color: rgb(240, 205, 205);
+    font-size: 30px;
+    font-family: cursive;
+}
+#cim{
+    color: rgb(255, 0, 0);
+    background-color: rgb(101, 0, 0);
+    border:  6px solid black;
+    font-family: cursive;
+}

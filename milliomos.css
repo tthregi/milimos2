@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px;
+    background-image: url(kep/casi.avif);
+}
+.kontener {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: dotted;
+}
+img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h1 {
+    color: #a65118;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow:
+    -2px -2px 0 #000000, 
+    2px -2px 0 #000000, 
+    -2px 2px 0 #000, 
+    2px 2px 0 #000;  
+}
+.kerdes {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    margin-top:  20px ;
+    font-family:cursive ;
+    color: #ca5f18;
+}
+.valaszok {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    
+}
+.valasz {
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: fantasy;
+}
+.valasz:hover {
+    background-color: #ddd;
+    color: darkred;
+}
+.eredmeny {
+    display: none;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+.egyenleg {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #333;
+    border: double;
+    width: 250px;
+    margin: auto;
+    font-family:cursive ;
+}
+.gombok {
+    margin-top: 20px;
+}
+.gomb {
+    padding: 10px 20px;
+    background-color: #9c3e19;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+.gomb:hover {
+    background-color: #000000;
+    color: #b3461c;
+}
+.gomb.disabled {
+    background-color: #ccc;
+    color: red;
+}
+span{
+    color: red;
+}
+h3{
+    font-family:fantasy ;
+    text-shadow:
+    -2px -2px 0 #480101aa, 
+    2px -2px 0 #480101aa, 
+    -2px 2px 0 #480101aa, 
+    2px 2px 0 #480101aa;  
+}
+
